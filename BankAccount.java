@@ -2,10 +2,10 @@ public class BankAccount {
   private double balance;
   private int accountID;
   private String password;
-  public void main(Strin[]args) {
+  public static void main(String[]args) {
 
   }
-  public BankAccount (double balIn; int idIn; String pw) {
+  public BankAccount(double balIn, int idIn, String pw) {
     balance = balIn;
     accountID = idIn;
     password = pw;
