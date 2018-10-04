@@ -10,5 +10,12 @@ public class Driver {
       System.out.println("Please enter a valid amount.");
     }
     System.out.println(acc.getBalance());
+    if (acc.withdraw(-1000000)) {
+      System.out.println("Successfully Withdrawn.");
+    }
+    else {
+      System.out.println("Please enter a valid amount.");
+    }
+    System.out.println(acc.getBalance());
   }
 }
